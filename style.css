@@ -1,0 +1,168 @@
+/* HTML */
+
+html {
+    scroll-behavior: smooth;
+    }
+
+/* BODY */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+
+/* HEADER */
+
+header {
+    width: 60%;
+    margin: 30px 0 0 0;
+    }
+
+header h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    }
+
+header #logo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    }
+
+header p {
+    margin: 0 0 0 10px;
+    padding: 0 0 5px 0;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    }
+
+header nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* MAIN */
+
+main .bio-header {
+    display: flex;
+    justify-content: start;
+}
+
+main .bio-card {
+    max-width: 50%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+main .bio-card img {
+    max-width: 50%;
+}
+
+main .bio-info {
+    width: 50%;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 60%;
+}
+
+main h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main .proyecto {
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+main .proyecto img {
+    max-width: 40%;
+    padding-right: 10px;
+}
+
+main .proyecto .titulo-proyecto {
+    padding-left: 10px;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+
+main .proyecto .descripcion-proyecto {
+    padding-left: 10px;
+}
+
+main .cv-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .cv-row-right {
+    width: 60%;
+}
+
+main .cv-row-left {
+    width: 40%;
+}
+
+main .cv-row-left p {
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+
+main .cv-row-right p {
+    padding-left: 30px;
+}
+
+main .cv-row-right hr {
+    margin-left: 30px;
+}
+
+main .cv-right-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+main .cv-right-title .organizacion {
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+
+main .cv-right-title .posicion {
+    padding-left: 5px;
+}
+
+main .cv-right-title p {
+    margin-bottom: 0;
+}
+
+main .fechas {
+    margin-top: 5px;
+    font-size: 11pt;
+}
+
+main .institucion {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+
+footer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
