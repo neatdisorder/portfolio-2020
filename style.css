@@ -26,6 +26,7 @@ header {
 header h1 {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
+    color: #00008b;
     }
 
 header #logo {
@@ -46,12 +47,36 @@ header ul {
     justify-content: space-between;
     }
 
+header li {
+    color: 	#808080;
+}
+
 header nav a {
     text-decoration: none;
-    color: #000000;
+    color: #00008b;
+}
+
+header nav a:hover {
+    color: #0000d8;
+}
+
+header .logo-subtitle {
+    color: 	#808080;
 }
 
 /* MAIN */
+
+main .text-grey {
+    color: 	#808080;
+}
+
+main h2 {
+    color: #00008b;
+}
+
+main .seccion {
+    margin-bottom: 20px;
+}
 
 main .bio-header {
     display: flex;
@@ -65,8 +90,40 @@ main .bio-card {
     justify-content: center;
 }
 
+main .bio-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .bio-info p {
+    text-align: center;
+}
+
 main .bio-card img {
-    max-width: 50%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main .bio-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .bio-contact p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main .bio-contact a {
+    color: #00008b;
+    text-decoration: none;
+}
+
+main .bio-contact a:hover {
+    color: #0000d8;
 }
 
 main .bio-info {
@@ -93,6 +150,11 @@ main .proyecto {
 main .proyecto img {
     max-width: 40%;
     padding-right: 10px;
+    transition: transform .2s;
+}
+
+main .proyecto img:hover {
+    transform: scale(1.1);
 }
 
 main .proyecto .titulo-proyecto {
@@ -102,6 +164,10 @@ main .proyecto .titulo-proyecto {
 }
 
 main .proyecto .descripcion-proyecto {
+    padding-left: 10px;
+}
+
+main .proyecto .link-proyecto {
     padding-left: 10px;
 }
 
@@ -116,6 +182,14 @@ main .cv-row-right {
 
 main .cv-row-left {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .cv-row-left hr {
+    margin-left: 0;
+    margin-right: 300px;
 }
 
 main .cv-row-left p {
@@ -152,11 +226,21 @@ main .cv-right-title p {
 main .fechas {
     margin-top: 5px;
     font-size: 11pt;
+    color: 	#808080;
 }
 
 main .institucion {
     margin-top: 5px;
     margin-bottom: 0;
+}
+
+main a {
+    text-decoration: none;
+    color: #00008b;
+}
+
+main a:hover {
+    color: #0000d8;
 }
 
 /* FOOTER */
@@ -165,4 +249,17 @@ footer {
     width: 60%;
     display: flex;
     justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00008b;
+}
+
+footer a:hover {
+    color: #0000d8;
+}
+
+footer .text-grey {
+    color: 	#808080;
 }
