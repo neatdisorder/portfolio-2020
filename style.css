@@ -81,6 +81,7 @@ main .seccion {
 main .bio-header {
     display: flex;
     justify-content: start;
+    margin-bottom: 1.5em;
 }
 
 main .bio-card {
@@ -147,33 +148,42 @@ main .proyecto {
     margin-bottom: 1.5em;
 }
 
+main .texto-proyecto {
+    position: relative;
+}
+
 main .proyecto img {
     max-width: 40%;
-    padding-right: 10px;
     transition: transform .2s;
+    z-index: 1;
 }
 
 main .proyecto img:hover {
-    transform: scale(1.1);
+    transform: scale(1.25);
+    box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.25);
 }
 
 main .proyecto .titulo-proyecto {
-    padding-left: 10px;
+    padding-left: 20px;
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
 }
 
 main .proyecto .descripcion-proyecto {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 main .proyecto .link-proyecto {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 main .cv-row {
     display: flex;
     justify-content: space-between;
+}
+
+main #cv hr {
+    margin-top: 1.5em;
 }
 
 main .cv-row-right {
@@ -197,12 +207,16 @@ main .cv-row-left p {
     -webkit-font-smoothing: antialiased;
 }
 
+main .cv-top {
+    margin-top: 0;
+}
+
 main .cv-row-right p {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 main .cv-row-right hr {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 main .cv-right-title {
