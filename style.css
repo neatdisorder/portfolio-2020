@@ -8,13 +8,63 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
     padding: 0;
     margin: 0;
+    display: flex;
     }
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    color: #808080;
+}
+
+/* LEFT-NAV */
+
+#left-nav h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #00008b;
+    margin-bottom: 5px;
+}
+
+#nav-content {
+    position: fixed;
+    visibility: hidden;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#left-nav .text-grey {
+    color: 	#808080;
+}
+
+#left-nav p {
+    margin-top: 0px;
+}
+
+#left-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#left-nav li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+#left-nav a {
+    text-decoration: none;
+    color: #00008b;
+}
+
+#left-nav a:hover {
+    color: #0000d8;
+}
 
 /* HEADER */
 
@@ -45,7 +95,7 @@ header ul {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    }
+}
 
 header li {
     color: 	#808080;
@@ -62,6 +112,25 @@ header nav a:hover {
 
 header .logo-subtitle {
     color: 	#808080;
+}
+
+.header-div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header-div a {
+    text-decoration: none;
+    color: #00008b;
+}
+
+header div a:hover {
+    color: #0000d8;
+}
+
+#nav-translation {
+    margin-bottom: 5px;
 }
 
 /* MAIN */
@@ -263,6 +332,7 @@ footer {
     width: 60%;
     display: flex;
     justify-content: center;
+    margin-top: 5px;    
 }
 
 footer a {
