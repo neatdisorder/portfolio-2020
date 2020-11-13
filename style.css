@@ -22,6 +22,7 @@ body {
 
 hr {
     color: #808080;
+    margin-top: 2em;
 }
 
 /* LEFT-NAV */
@@ -95,6 +96,7 @@ header ul {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header li {
@@ -221,10 +223,14 @@ main .texto-proyecto {
     position: relative;
 }
 
-main .proyecto img {
+main .proyecto-img-container {
     max-width: 40%;
-    transition: transform .2s;
     z-index: 1;
+}
+
+main .proyecto img {
+    max-width: 100%;
+    transition: transform .2s; 
 }
 
 main .proyecto img:hover {
@@ -251,8 +257,8 @@ main .cv-row {
     justify-content: space-between;
 }
 
-main #cv hr {
-    margin-top: 1.5em;
+main .cv-row-right hr {
+    margin-top: 2em;
 }
 
 main .cv-row-right {
