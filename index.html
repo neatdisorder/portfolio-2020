@@ -8,7 +8,6 @@
     </title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
 </head>
 <body>
     <div id="top"></div>
@@ -17,7 +16,7 @@
             <h2>
                 IGNACIO CASTILLO
             </h2>
-            <p class="text-grey">
+            <p class="text-grey" id="bajada-left-nav">
                 CONTENIDO DIGITAL
             </p>
             <div class='left-nav-style'>
@@ -28,17 +27,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#desarrollo">
+                        <a href="index.html#desarrollo" id="frontend-left-nav">
                             💻 DESARROLLO FRONT-END
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#cms">
+                        <a href="index.html#cms" id="left-nav-cms">
                             🔧 ADMINISTRACIÓN DE CMS
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#redaccion">
+                        <a href="index.html#redaccion" id="left-nav-marketing">
                             📱 MARKETING DIGITAL
                         </a>
                     </li>
@@ -48,7 +47,7 @@
                         </a>
                     </li>
                     <li>
-                        <span class="text-grey">
+                        <span class="text-grey" id="left-nav-contact">
                             // CONTACTO
                         </span>
                     </li>
@@ -68,12 +67,12 @@
                         </a>
                     </li>
                     <li>
-                        <span class="text-grey">
+                        <span class="text-grey" id="left-nav-language">
                             // IDIOMA
                         </span>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#a" class="btn-translate" id="left-nav-translate">
                             🇬🇧 VIEW IN ENGLISH
                         </a>
                     </li>
@@ -91,13 +90,13 @@
                         </h1>
                     </div>
                     <div class="logo-subtitle">
-                        <p>
+                        <p id="bajada-header">
                             CONTENIDO DIGITAL
                         </p>
                     </div>
                 </div>
                 <div id="nav-translation">
-                    <a href="#">
+                    <a href="# " id="header-btn-translate">
                         🇬🇧 VIEW IN ENGLISH
                     </a>
                 </div>
@@ -113,7 +112,7 @@
                         //
                     </li>
                     <li>
-                        <a href="index.html#desarrollo">
+                        <a href="index.html#desarrollo" id="front-end-header">
                             💻 DESARROLLO FRONT-END
                         </a>
                     </li>
@@ -121,7 +120,7 @@
                         //
                     </li>
                     <li>
-                        <a href="index.html#cms">
+                        <a href="index.html#cms" id="cms-header">
                             🔧 ADMINISTRACIÓN DE CMS
                         </a>
                     </li>
@@ -129,7 +128,7 @@
                         //
                     </li>
                     <li>
-                        <a href="index.html#redaccion">
+                        <a href="index.html#redaccion" id="marketing-header">
                             📱 MARKETING DIGITAL
                         </a>
                     </li>
@@ -169,7 +168,7 @@
                                 </a>
                             </p>
                         </div>
-                        <p>
+                        <p id="bio-text">
                             Comunicador digital con experiencia en planificación y gestión de contenidos y redacción creativa español/inglés. Actualmente en proceso de formación como programador web.
                         </p>
                     </div>
@@ -181,7 +180,7 @@
                 <div id="desarrollo"></div>
             </div>
             <div class="seccion">
-                <h2>
+                <h2 id ="front-end-section-header">
                     <span class="text-grey">//</span> DESARROLLO FRONT-END
                 </h2>
                 <div class="proyecto">
@@ -191,13 +190,13 @@
                         </a>
                     </div>
                     <div class="texto-proyecto">
-                        <p class="titulo-proyecto">
+                        <p class="titulo-proyecto" id="twelve-tone-project">
                             GENERADOR DE SERIES DODECAFÓNICAS
                         </p>
-                        <p class="descripcion-proyecto">
+                        <p class="descripcion-proyecto" id="twelve-tone-description">
                             Generador aleatorio de series de doce notas musicales inspirado en la música dodecafónica. Proyecto realizado con HTML, Bootstrap y Javascript.
                         </p>
-                        <p class="link-proyecto">
+                        <p class="link-proyecto" id="view-twelve-tone-site">
                             <a href="https://neatdisorder.github.io/series-dodecafonicas/" target="_blank">
                                 🔗 VER SITIO WEB
                             </a>
@@ -211,13 +210,13 @@
                         </a>
                     </div>
                     <div class="texto-proyecto">
-                        <p class="titulo-proyecto">
+                        <p class="titulo-proyecto" id="recommendation-project">
                             RECOMENDAME UN DISCO
                         </p>
-                        <p class="descripcion-proyecto">
+                        <p class="descripcion-proyecto" id="recommendation-description">
                             Proyecto de sitio de recomendación personalizada de música en base a cuestionarios. Realizado con HTML, CSS y Javascript.
                         </p>
-                        <p class="link-proyecto">
+                        <p class="link-proyecto" id="view-recommendation-site">
                             <a href="https://neatdisorder.github.io/recomendame-un-disco/" target="_blank">
                                 🔗 VER SITIO WEB
                             </a>
@@ -228,7 +227,7 @@
             <hr />
             <div id="cms"></div>
             <div class="seccion">
-                <h2>
+                <h2 id="cms-section-header">
                     <span class="text-grey">//</span> ADMINISTRACIÓN DE CMS
                 </h2>
                 <div class="proyecto">
@@ -241,10 +240,10 @@
                         <p class="titulo-proyecto">
                             CHEVROLET.COM.BR (ADOBE EXPERIENCE MANAGER)
                         </p>
-                        <p class="descripcion-proyecto">
+                        <p class="descripcion-proyecto" id="chevrolet-description">
                             Gestión de contenidos para el sitio web de Chevrolet Brasil usando el CMS Quantum basado en Adobe Experience Manager. Liderazgo y coordinación del equipo utilizando metodologías ágiles de gestión de proyectos a través de Jira. Escalamiento, reporte y análisis de problemas técnicos al equipo de soporte global.
                         </p>
-                        <p class="link-proyecto">
+                        <p class="link-proyecto" id="view-chevrolet-site">
                             <a href="https://www.chevrolet.com.br/" target="_blank">
                                 🔗 VER SITIO WEB
                             </a>
@@ -261,10 +260,10 @@
                         <p class="titulo-proyecto">
                             TANGOSINFIN.ORG.AR (WORDPRESS)
                         </p>
-                        <p class="descripcion-proyecto">
+                        <p class="descripcion-proyecto" id="tangosinfin-description">
                             Implementación, gestión y redacción de contenidos y mantenimiento del sitio web de la Asociación Civil Tango Sin Fin en Wordpress.
                         </p>
-                        <p class="link-proyecto">
+                        <p class="link-proyecto" id="view-tangosinfin-site">
                             <a href="https://www.tangosinfin.org.ar/" target="_blank">
                                 🔗 VER SITIO WEB
                             </a>
@@ -281,10 +280,10 @@
                         <p class="titulo-proyecto">
                             TANGOFORMUSICIANS.COM (WORDPRESS)
                         </p>
-                        <p class="descripcion-proyecto">
-                            Implementación, gestión y redacción de contenidos y mantenimiento del sitio web del programa educativo Tango for Musicians en Wordpress.
+                        <p class="descripcion-proyecto" id="tangoformusicians-description">
+                            Implementación, gestión y redacción de contenidos y mantenimiento del sitio web del programa educativo Tango for Musicians en Wordpress. Texto en inglés.
                         </p>
-                        <p class="link-proyecto">
+                        <p class="link-proyecto" id="view-tangoformusicians-site">
                             <a href="https://www.tangoformusicians.com/" target="_blank">
                                 🔗 VER SITIO WEB
                             </a>
@@ -295,7 +294,7 @@
             <hr />
             <div id="redaccion"></div>
             <div class="seccion">
-                <h2>
+                <h2 id="marketing-section-header">
                     <span class="text-grey">//</span> MARKETING DIGITAL
                 </h2>
                 <div class="proyecto">
@@ -305,13 +304,13 @@
                         </a>
                     </div>
                     <div class="texto-proyecto">
-                        <p class="titulo-proyecto">
+                        <p class="titulo-proyecto" id="social-media-project">
                             REDES SOCIALES
                         </p>
-                        <p class="descripcion-proyecto">
+                        <p class="descripcion-proyecto" id="social-media-description">
                             Generación de contenidos, calendarización, redacción creativa en inglés/español, moderación de comentarios y mensajes privados y cobertura de eventos en Facebook, Instagram y Twitter.
                         </p>
-                        <p class="link-proyecto">
+                        <p class="link-proyecto" id="view-social-media-site">
                             <a href="https://www.facebook.com/tangosinfin/photos/a.930718310374358/1736235676489280/" target="_blank">
                                 🔗 VER EJEMPLO
                             </a>
@@ -328,10 +327,10 @@
                         <p class="titulo-proyecto">
                             EMAIL MARKETING
                         </p>
-                        <p class="descripcion-proyecto">
+                        <p class="descripcion-proyecto" id="email-description">
                             Redacción de contenidos en español/inglés, calendarización y administración de bases de datos de email marketing en plataforma MailChimp.
                         </p>
-                        <p class="link-proyecto">
+                        <p class="link-proyecto" id="view-email-site">
                             <a href="https://mailchi.mp/37ad25751dbb/conoc-la-nueva-web-de-mtodo-de-tango-newsletter-tango-sin-fin-29-agosto-2018?e=6018eae6f3" target="_blank">
                                 🔗 VER EJEMPLO
                             </a>
@@ -345,7 +344,7 @@
                 <h2><span class="text-grey">//</span> CV</h2>
                 <div class="cv-row">
                     <div class="cv-row-left">
-                        <p class="cv-top">
+                        <p class="cv-top" id="cv-experience">
                             EXPERIENCIA LABORAL
                         </p>
                         <hr />
@@ -360,7 +359,7 @@
                                     // Content Specialist
                                 </p>
                             </div>
-                            <p class="fechas">
+                            <p class="fechas" id="mrm-dates">
                                 JUNIO 2019 - ACTUALIDAD
                             </p>
                         </div>
@@ -369,11 +368,11 @@
                                 <p class="organizacion">
                                     Tango Sin Fin
                                 </p>
-                                <p class="posicion">
+                                <p class="posicion" id="tangosinfin-position">
                                     // Responsable de comunicación
                                 </p>
                             </div>
-                            <p class="fechas">
+                            <p class="fechas" id="tangosinfin-dates">
                                 MAYO 2016 - MAYO 2019
                             </p>
                         </div>
@@ -382,12 +381,12 @@
                                 <p class="organizacion">
                                     Elefante en la Habitación!
                                 </p>
-                                <p class="posicion">
+                                <p class="posicion" id="elefante-position">
                                     // Prensa & Community Manager
                                 </p>
                             </div>
-                            <p class="fechas">
-                                JUNIO 2019 - ACTUALIDAD
+                            <p class="fechas" id="elefante-dates">
+                                MAYO 2015 - ENERO 2017
                             </p>
                         </div>
                         <div class="experiencia-laboral">
@@ -395,11 +394,11 @@
                                 <p class="organizacion">
                                     Freelance
                                 </p>
-                                <p class="posicion">
+                                <p class="posicion" id="freelance-position">
                                     // Prensa & Community Manager
                                 </p>
                             </div>
-                            <p class="fechas">
+                            <p class="fechas" id="freelance-dates">
                                 DICIEMBRE 2011 - MAYO 2019
                             </p>
                         </div>
@@ -408,7 +407,7 @@
                     </div>
                     <div class="cv-row">
                         <div class="cv-row-left">
-                            <p>
+                            <p id="academic-education">
                                 FORMACIÓN ACADÉMICA
                             </p>
                             <hr />
@@ -416,7 +415,7 @@
                         <div class="cv-row-right">
                                 <div class="experiencia-laboral">
                                     <div class="cv-right-title">
-                                        <p class="organizacion">
+                                        <p class="organizacion" id="diplomatura-title">
                                             Diplomatura en proyectos culturales y producción de espacios de la cultura
                                         </p>
                                     </div>
@@ -429,21 +428,21 @@
                                 </div>
                                 <div class="experiencia-laboral">
                                     <div class="cv-right-title">
-                                        <p class="organizacion">
+                                        <p class="organizacion" id="licenciatura-title">
                                             Licenciatura en Artes Musicales
                                         </p>
                                     </div>
                                     <p class="institucion">
                                         Universidad Nacional de las Artes
                                     </p>
-                                    <p class="fechas">
+                                    <p class="fechas" id="licenciatura-dates">
                                         2013 - EN CURSO
                                     </p>
                                 </div>
                                 <div class="experiencia-laboral">
                                     <div class="cv-right-title">
-                                        <p class="organizacion">
-                                            Bachillerato especializado en lenguas vivas con intensificación en idioma extranjero (Primera lengua e instrumental: Inglés - Segunda lengua: Francés)
+                                        <p class="organizacion" id="secundario-title">
+                                            Bachillerato especializado en lenguas vivas con intensificación en idioma extranjero
                                         </p>
                                     </div>
                                     <p class="institucion">
@@ -458,7 +457,7 @@
                     </div>
                     <div class="cv-row">
                         <div class="cv-row-left">
-                            <p>
+                            <p id="courses">
                                 CURSOS
                             </p>
                             <hr />
@@ -473,7 +472,7 @@
                                     <p class="institucion">
                                         EducaciónIT
                                     </p>
-                                    <p class="fechas">
+                                    <p class="fechas" id="educacionit-dates">
                                         2020 - EN CURSO
                                     </p>
                                 </div>
@@ -486,7 +485,7 @@
                                     <p class="institucion">
                                         freeCodeCamp
                                     </p>
-                                    <p class="fechas">
+                                    <p class="fechas" id="freecodecamp-dates">
                                         2018 - EN CURSO
                                     </p>
                                 </div>
@@ -495,7 +494,7 @@
                     </div> 
                     <div class="cv-row">
                         <div class="cv-row-left">
-                            <p>
+                            <p id="certifications">
                                 CERTIFICACIONES
                             </p>
                             <hr />
@@ -532,14 +531,14 @@
                     </div>
                     <div class="cv-row">
                         <div class="cv-row-left">
-                            <p>
+                            <p id="tools-and-skills">
                                 HERRAMIENTAS Y HABILIDADES
                             </p>
                         </div>
                         <div class="cv-row-right">
                             <div class="experiencia-laboral">
                                 <div class="cv-right-title">
-                                    <p class="organizacion">
+                                    <p class="organizacion" id="software-and-apps">
                                         Software y aplicaciones web
                                     </p>
                                 </div>
@@ -549,12 +548,12 @@
                             </div>
                             <div class="experiencia-laboral">
                                     <div class="cv-right-title">
-                                        <p class="organizacion">
+                                        <p class="organizacion" id="soft-skills-title">
                                             Habilidades blandas
                                         </p>
                                     </div>
-                                    <p class="institucion">
-                                        Flexibilidad <span class="text-grey">//</span> Comunicación <span class="text-grey">//</span> Trabajo en equipo <span class="text-grey">//</span> Resolución de problemas <span class="text-grey">//</span> Pensamiento crítico <span class="text-grey">//</span> Resolución de conflictos <span class="text-grey">//</span> Atención al detalle <span class="text-grey">//</span> Proactividad
+                                    <p class="institucion" id="soft-skills">
+                                        Flexibilidad <span class="text-grey">//</span> Comunicación <span class="text-grey">//</span> Trabajo en equipo <span class="text-grey">//</span> Resolución de problemas <span class="text-grey">//</span> Pensamiento crítico <span class="text-grey">//</span> Atención al detalle <span class="text-grey">//</span> Proactividad
                                     </p>
                             </div>
                         </div>
@@ -562,10 +561,12 @@
             </div>       
         </main>
         <footer>
-            <p>
-                <a href="index.html#top">↑ VOLVER ARRIBA ↑</a> <span class="text-grey">//</span> v 0.3 <span class="text-grey">//</span> 2020
+            <p id="footer">
+                <a href="index.html#top">↑ VOLVER ARRIBA ↑</a> <span class="text-grey">//</span> v 0.5 <span class="text-grey">//</span> Hecho con <a href="https://jquery.com/" target="_blank">jQuery</a> <span class="text-grey">//</span> 2020
             </p>
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
