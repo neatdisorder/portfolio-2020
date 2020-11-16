@@ -12,6 +12,8 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
+    background-image: url("assets/background.png");
+    background-size: contain;
     }
 
 #main-content {
