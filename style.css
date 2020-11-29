@@ -57,7 +57,7 @@ hr {
 
 #left-nav li {
     list-style-type: none;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #left-nav a {
@@ -236,7 +236,7 @@ main .proyecto img {
 }
 
 main .proyecto img:hover {
-    transform: scale(1.25);
+    transform: scale(1.05);
     box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.25);
 }
 

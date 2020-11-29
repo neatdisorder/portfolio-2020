@@ -28,9 +28,9 @@ const dictionaryESP = {
   twelveToneProject: 'GENERADOR DE SERIES DODECAFÓNICAS',
   twelveToneDescription: 'Generador aleatorio de series de doce notas musicales inspirado en la música dodecafónica. Proyecto realizado con HTML, Bootstrap y Javascript.',
   twelveToneSite: '<a href="https://neatdisorder.github.io/series-dodecafonicas/" target="_blank">🔗 VER SITIO WEB</a>',
-  recommendationProject: 'RECOMENDAME UN DISCO',
-  recommendationDescription: 'Proyecto de sitio de recomendación personalizada de música en base a cuestionarios. Realizado con HTML, CSS y Javascript.',
-  recommendationSite: '<a href="https://neatdisorder.github.io/recomendame-un-disco/" target="_blank">🔗 VER SITIO WEB</a>',
+  fccJavascriptProject: 'CERTIFICACIÓN JAVASCRIPT DE FREECODECAMP',
+  fccJavascriptDescription: 'Aplicación de una sola página creada para mostrar los cinco proyectos finales de la certificación "Javascript Algorithms and Data Structures" del programa de freeCodeCamp. Realizado con HTML, CSS y Javascript. Textos en inglés.',
+  fccJavascriptSite: '<a href="https://neatdisorder.github.io/fcc-javascript-algorithms-and-data-structures/" target="_blank">🔗 VER SITIO WEB</a>',
   cmsSectionHeader: '<span class="text-grey">//</span> ADMINISTRACIÓN DE CMS',
   chevroletDescription: 'Gestión de contenidos para el sitio web de Chevrolet Brasil usando el CMS Quantum basado en Adobe Experience Manager. Liderazgo y coordinación del equipo utilizando metodologías ágiles de gestión de proyectos a través de Jira. Escalamiento, reporte y análisis de problemas técnicos al equipo de soporte global.',
   chevroletSite: '<a href="https://www.chevrolet.com.br/" target="_blank">🔗 VER SITIO WEB</a>',
@@ -81,9 +81,9 @@ const dictionaryENG = {
   twelveToneProject: 'TWELVE-TONE ROW GENERATOR',
   twelveToneDescription: 'Random twelve-tone note rows generator inspired by dodecaphonic music. Project created using HTML, Bootstrap and Javascript. Text in Spanish.',
   twelveToneSite: '<a href="https://neatdisorder.github.io/series-dodecafonicas/" target="_blank">🔗 VISIT WEBSITE</a>',
-  recommendationProject: 'MUSIC RECOMMENDATION SITE',
-  recommendationDescription: 'Personalized music recommendation site based on forms. Project created using HTML, CSS and Javascript. Text in Spanish.',
-  recommendationSite: '<a href="https://neatdisorder.github.io/series-dodecafonicas/" target="_blank">🔗 VISIT WEBSITE</a>',
+  fccJavascriptProject: 'FREECODECAMP JAVASCRIPT CERTIFICATION',
+  fccJavascriptDescription: 'Single-page application created for showcasing the solutions for the final projects of freeCodeCamp\'s \'Javascript Algorithms and Data Structures Certification\'. Project created using HTML, CSS and Javascript.',
+  fccJavascriptSite: '<a href="https://neatdisorder.github.io/fcc-javascript-algorithms-and-data-structures/" target="_blank">🔗 VISIT WEBSITE</a>',
   cmsSectionHeader: '<span class="text-grey">//</span> CMS AUTHORING',
   chevroletDescription:'Content authoring for General Motors Brazil websites using the Adobe Experience Manager-based CMS “Quantum”. Team leading and coordination using Agile Project Management methodologies through Jira. Escalation, reporting and analysis of technical issues to the Global Support team.',
   chevroletSite: '<a href="https://www.chevrolet.com.br/" target="_blank">🔗 VISIT WEBSITE</a>',
@@ -152,9 +152,9 @@ function translateSite() {
     $('#twelve-tone-project').text(dictionaryENG.twelveToneProject);
     $('#twelve-tone-description').text(dictionaryENG.twelveToneDescription);
     $('#view-twelve-tone-site').html(dictionaryENG.twelveToneSite);
-    $('#recommendation-project').text(dictionaryENG.recommendationProject);
-    $('#recommendation-description').text(dictionaryENG.recommendationDescription);
-    $('#view-recommendation-site').html(dictionaryENG.recommendationSite);
+    $('#fcc-javascript-project').text(dictionaryENG.fccJavascriptProject);
+    $('#fcc-javascript-description').text(dictionaryENG.fccJavascriptDescription);
+    $('#fcc-javascript-site').html(dictionaryENG.fccJavascriptSite);
     $('#cms-section-header').html(dictionaryENG.cmsSectionHeader);
     $('#chevrolet-description').text(dictionaryENG.chevroletDescription);
     $('#view-chevrolet-site').html(dictionaryENG.chevroletSite);
@@ -212,9 +212,9 @@ function translateSite() {
     $('#twelve-tone-project').text(dictionaryESP.twelveToneProject);
     $('#twelve-tone-description').text(dictionaryESP.twelveToneDescription);
     $('#view-twelve-tone-site').html(dictionaryESP.twelveToneSite);
-    $('#recommendation-project').text(dictionaryESP.recommendationProject);
-    $('#recommendation-description').text(dictionaryESP.recommendationDescription);
-    $('#view-recommendation-site').html(dictionaryESP.recommendationSite);
+    $('#fcc-javascript-project').text(dictionaryESP.fccJavascriptProject);
+    $('#fcc-javascript-description').text(dictionaryESP.fccJavascriptDescription);
+    $('#fcc-javascript-site').html(dictionaryESP.fccJavascriptSite);
     $('#cms-section-header').html(dictionaryESP.cmsSectionHeader);
     $('#chevrolet-description').text(dictionaryESP.chevroletDescription);
     $('#view-chevrolet-site').html(dictionaryESP.chevroletSite);
