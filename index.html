@@ -11,75 +11,6 @@
 </head>
 <body>
     <div id="top"></div>
-    <div id="left-nav">
-        <div id="nav-content">
-            <h2>
-                IGNACIO CASTILLO
-            </h2>
-            <p class="text-grey" id="bajada-left-nav">
-                CONTENIDO DIGITAL
-            </p>
-            <div class='left-nav-style'>
-                <ul>
-                    <li>
-                        <a href="index.html#bio">
-                            🙋🏼‍♂️ BIO
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.html#desarrollo" id="frontend-left-nav">
-                            💻 DESARROLLO FRONT-END
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.html#cms" id="left-nav-cms">
-                            🔧 ADMINISTRACIÓN DE CMS
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.html#redaccion" id="left-nav-marketing">
-                            📱 MARKETING DIGITAL
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.html#cv">
-                            📝 CV
-                        </a>
-                    </li>
-                    <li>
-                        <span class="text-grey" id="left-nav-contact">
-                            // CONTACTO
-                        </span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/neatdisorder" target="_blank">
-                            🚀 GITHUB
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/nachocast92" target="_blank">
-                            💼 LINKEDIN
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:nachocast92@gmail.com">
-                            📬 MAIL
-                        </a>
-                    </li>
-                    <li>
-                        <span class="text-grey" id="left-nav-language">
-                            // IDIOMA
-                        </span>
-                    </li>
-                    <li>
-                        <a href="#a" class="btn-translate" id="left-nav-translate">
-                            🇬🇧 VIEW IN ENGLISH
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
     <div id="main-content">
         <header>
             <div class="header-div" id="bio">
@@ -95,20 +26,18 @@
                         </p>
                     </div>
                 </div>
-                <div id="nav-translation">
-                    <a href="#a " id="header-btn-translate">
-                        🇬🇧 VIEW IN ENGLISH
-                    </a>
+                <div id="nav-hamburguer">
+                    ≡
                 </div>
             </div>
-            <nav>
+            <nav id="nav">
                 <ul>
                     <li>
                         <a href="index.html#bio">
                             🙋🏼‍♂️ BIO
                         </a>
                         </li>
-                    <li>
+                    <li class="mobile-hide">
                         //
                     </li>
                     <li>
@@ -116,7 +45,7 @@
                             💻 DESARROLLO FRONT-END
                         </a>
                     </li>
-                    <li>
+                    <li class="mobile-hide">
                         //
                     </li>
                     <li>
@@ -124,7 +53,7 @@
                             🔧 ADMINISTRACIÓN DE CMS
                         </a>
                     </li>
-                    <li>
+                    <li class="mobile-hide">
                         //
                     </li>
                     <li>
@@ -132,7 +61,7 @@
                             📱 MARKETING DIGITAL
                         </a>
                     </li>
-                    <li>
+                    <li class="mobile-hide">
                         //
                     </li>
                     <li>
@@ -140,6 +69,12 @@
                             📝 CV
                         </a>
                     </li>
+                    <li class="mobile-hide">
+                        //
+                    </li>
+                    <a href="#a " id="header-btn-translate">
+                        🇬🇧 VIEW IN ENGLISH
+                    </a>
                 </ul>
             </nav>
         </header>
@@ -147,6 +82,9 @@
             <div class="seccion">
                 <h2><span class="text-grey">//</span> BIO</h2>
                 <div class="bio-header">
+                    <div class="bio-card">
+                        <img src="assets/cv-photo.JPG" alt="ignacio castillo">
+                    </div>
                     <div class="bio-info">
                         <div class="bio-contact">
                             <p>
@@ -171,9 +109,6 @@
                         <p id="bio-text">
                             Comunicador digital con experiencia en planificación y gestión de contenidos y redacción creativa español/inglés. Actualmente en proceso de formación como programador web.
                         </p>
-                    </div>
-                    <div class="bio-card">
-                        <img src="assets/cv-photo.JPG" alt="ignacio castillo">
                     </div>
                 </div>
                 <hr />

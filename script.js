@@ -1,14 +1,18 @@
-// LEFT NAV MENU
+// HAMBURGUER MENU
 
-window.onscroll = function() {scrollFunction()};
+let hamburguerOpen = false;
 
-function scrollFunction() {
-  if (document.body.scrollTop > 130 || document.documentElement.scrollTop > 130) {
-    document.getElementById('nav-content').style.visibility = 'visible';
-  } else {
-    document.getElementById('nav-content').style.visibility = 'hidden';
+document.getElementById('nav-hamburguer').addEventListener('click', () => {
+
+  if (!hamburguerOpen) {
+    document.getElementById('nav').style.display = 'block';
+    hamburguerOpen = true;
+  } else if (hamburguerOpen) {
+    document.getElementById('nav').style.display = 'none';
+    hamburguerOpen = false;
   }
-}
+  
+});
 
 // TRANSLATION (JQUERY)
 
@@ -66,8 +70,6 @@ const dictionaryESP = {
   softSkillsTitle: 'Habilidades blandas',
   softSkills: 'Flexibilidad <span class="text-grey">//</span> Comunicación <span class="text-grey">//</span> Trabajo en equipo <span class="text-grey">//</span> Resolución de problemas <span class="text-grey">//</span> Pensamiento crítico <span class="text-grey">//</span> Atención al detalle <span class="text-grey">//</span> Proactividad',
   footer: '<a href="index.html#top">↑ VOLVER ARRIBA ↑</a> <span class="text-grey">//</span> v 0.5 <span class="text-grey">//</span> Hecho con <a href="https://jquery.com/" target="_blank">jQuery</a> <span class="text-grey">//</span> 2020',
-  leftNavContact: '// CONTACTO',
-  leftNavLanguage: '// IDIOMA',
 }
 
 const dictionaryENG = {
@@ -119,14 +121,11 @@ const dictionaryENG = {
   softSkillsTitle: 'Soft Skills',
   softSkills: 'Adaptability <span class="text-grey">//</span> Communication <span class="text-grey">//</span> Teamwork <span class="text-grey">//</span> Problem-solving <span class="text-grey">//</span> Critical thinking <span class="text-grey">//</span> Detail-oriented <span class="text-grey">//</span> Action-oriented',
   footer: '<a href="index.html#top">↑ BACK TO TOP ↑</a> <span class="text-grey">//</span> v 0.5 <span class="text-grey">//</span> Developed using <a href="https://jquery.com/" target="_blank">jQuery</a> <span class="text-grey">//</span> 2020',
-  leftNavContact: '// CONTACT',
-  leftNavLanguage: '// LANGUAGE',
 }
 
 // ONCLICK EVENT LISTENER
 
 document.getElementById('header-btn-translate').addEventListener('click', translateSite);
-document.getElementById('left-nav-translate').addEventListener('click', translateSite);
 
 // TRANSLATION FUNCTION
 
@@ -136,17 +135,10 @@ function translateSite() {
     
     // ENGLISH TRANSLATION
     $('#bajada-header').text(dictionaryENG.bajadaHeader);
-    $('#bajada-left-nav').text(dictionaryENG.bajadaHeader);
     $('#header-btn-translate').text(dictionaryENG.languageHeader);
-    $('#left-nav-translate').text(dictionaryENG.languageHeader);
     $('#front-end-header').text(dictionaryENG.frontEndHeader);
-    $('#frontend-left-nav').text(dictionaryENG.frontEndHeader);
     $('#cms-header').text(dictionaryENG.cmsHeader);
-    $('#left-nav-cms').text(dictionaryENG.cmsHeader);
-    $('#left-nav-contact').text(dictionaryENG.leftNavContact);
-    $('#left-nav-language').text(dictionaryENG.leftNavLanguage);
     $('#marketing-header').text(dictionaryENG.marketingHeader);
-    $('#left-nav-marketing').text(dictionaryENG.marketingHeader);
     $('#bio-text').text(dictionaryENG.bioText);
     $('#front-end-section-header').html(dictionaryENG.frontEndSectionHeader);
     $('#twelve-tone-project').text(dictionaryENG.twelveToneProject);
@@ -196,17 +188,10 @@ function translateSite() {
     
     // SPANISH TRANSLATION
     $('#bajada-header').text(dictionaryESP.bajadaHeader);
-    $('#bajada-left-nav').text(dictionaryESP.bajadaHeader);
     $('#header-btn-translate').text(dictionaryESP.languageHeader);
-    $('#left-nav-translate').text(dictionaryESP.languageHeader);
     $('#front-end-header').text(dictionaryESP.frontEndHeader);
-    $('#frontend-left-nav').text(dictionaryESP.frontEndHeader);
     $('#cms-header').text(dictionaryESP.cmsHeader);
-    $('#left-nav-cms').text(dictionaryESP.cmsHeader);
     $('#marketing-header').text(dictionaryESP.marketingHeader);
-    $('#left-nav-marketing').text(dictionaryESP.marketingHeader);
-    $('#left-nav-contact').text(dictionaryESP.leftNavContact);
-    $('#left-nav-language').text(dictionaryESP.leftNavLanguage);
     $('#bio-text').text(dictionaryESP.bioText);
     $('#front-end-section-header').html(dictionaryESP.frontEndSectionHeader);
     $('#twelve-tone-project').text(dictionaryESP.twelveToneProject);
